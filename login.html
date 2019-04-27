@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body class="loginbackground">
+    <nav>
+        <ul class="nav">
+             <li style="float:left; margin: 50px 50px 0px">
+                 <img src="/images/logo.svg" alt="The Jungle Cook">
+             </li>
+             <li> 
+                 <button class="login">
+                     <a href="#login" style="margin-top:0px">Login</a>
+                 </button>
+             </li>
+             <li ><a href="create.html">Create Recipe</a></li>
+             <li ><a href="browse.html">Browse</a></li>
+             <li ><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <div>
+        <div class="logingrid">
+            <div class="grid-item">
+                    <form class="loginform">
+                        <b><header class="loginheader">Login Here!</header></b>
+                        <input type="text" id="addLoginEmail" placeholder="Email Address">
+                        <input type="text" id="addLoginPassword" placeholder="Password">
+                    </form>
+                    <button class="signupbtn">Login</button>
+            </div> 
+            <div class="grid-item">
+                    <form class="loginform">
+                        <i><p style="float: left; letter-spacing: 1.5px">Don't have an account?</p></i>
+                        <br>
+                        <b><header class="loginheader">Sign Up!</header></b>
+                        <input type="text" id="addLoginFirstName" placeholder="First Name">
+                        <input type="text" id="addLoginLastName" placeholder="Last Name">
+                        <input type="text" id="addLoginEmail" placeholder="Email Address">
+                        <input type="text" id="addLoginPassword" placeholder="Password">
+                    </form>
+                    <button class="signupbtn">Sign Up</button>
+            </div> 
+        </div>
+    </div>
+    <footer>
+            <ul>
+                <i>
+                <li style="float: left; margin: 0px 150px 0px 0px"> 
+                   Copyright © 2019 The Jungle Cook
+                </li>
+                <li>
+                   <a href="login.html">
+                       Login
+                   </a>
+                </li>
+                <li>
+                   <a href="browse.html">
+                       Recipes by Category
+                   </a>
+                </li>
+                <li>
+                   <a href="#copyright">
+                       Copyright
+                   </a>
+                </li>
+                <li>
+                   <a href="create.html">
+                       Create Recipe
+                   </a>
+                </li>
+                <li>
+                   <a href="myrecipe.html">
+                       Your Recipes
+                   </a>
+                </li>
+               <div class="footerimg">
+                   <img src="/images/facebook.svg" alt="Facebook">
+               
+                   <img src="/images/instagram.svg" alt="Instagram">
+                </div>
+               </i>
+            </ul>
+        </footer>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-database.js"></script>
+    <script src="lib/jquery-3.3.1.min.js"></script>
+    <script src="app/firebaseUtility.js"></script>
+    <script src="app/app.js"></script>
+</body>
+</html>

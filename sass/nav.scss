@@ -1,0 +1,50 @@
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    
+  }
+  
+  nav li {
+    text-decoration: none;
+    float: right;
+  }
+  
+  nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px 20px 0px;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid black;
+    text-decoration: none; 
+  }
+  
+  .active {
+    text-decoration: underline;
+  }
+ a{
+    text-decoration: none;
+    color: #393939;
+}
+  .login{
+    margin: 40px 50px  0px;
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    background-color: $yellow;
+    border-radius: 26px;
+    padding: 10px 52px;
+    border: none;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .login a:hover{
+    text-decoration: none;
+  }

@@ -1,0 +1,384 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.wrapper {
+  min-height: 100vh; }
+
+.full {
+  min-height: 100vh;
+  /* position: absolute; */
+  width: 100%;
+  display: none;
+  padding: 110px 30px; }
+
+.view {
+  background-color: aqua;
+  /* z-index: 1; */
+  /* display: block; */
+  height: 200%; }
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Caveat', cursive;
+  font-size: 25px; }
+
+nav li {
+  text-decoration: none;
+  float: right; }
+
+nav a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 20px 0px; }
+
+nav a:hover {
+  border-bottom: 2px solid black;
+  text-decoration: none; }
+
+.active {
+  text-decoration: underline; }
+
+a {
+  text-decoration: none;
+  color: #393939; }
+
+.login {
+  margin: 40px 50px  0px;
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+  background-color: #FFD972;
+  border-radius: 26px;
+  padding: 10px 52px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.login a:hover {
+  text-decoration: none; }
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(242, 92, 84, 0.6), rgba(242, 92, 84, 0.6)), url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.circlecontent {
+  height: 70vh;
+  width: 100vh; }
+
+.circleone {
+  position: absolute;
+  display: block;
+  height: 357.58px;
+  width: 357.58px;
+  border-radius: 50%;
+  transform: translate(421px, -70px);
+  border: none;
+  background-color: #FFD972; }
+
+.circlehead {
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+  padding-bottom: 10px; }
+
+.circlep {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0px 99px;
+  font-size: 13px; }
+
+.circletwo {
+  position: relative;
+  height: 167px;
+  width: 167px;
+  border-radius: 50%;
+  transform: translate(695px, 50px);
+  border: none;
+  background-color: #FCBCB8; }
+
+.circletwop {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+  padding: 65px 31px; }
+
+#contentwrap {
+  padding-bottom: 2.5rem; }
+
+footer ul {
+  list-style-type: none;
+  margin: 40px 0px 0px 0px;
+  padding: 0;
+  overflow: hidden;
+  color: #393939; }
+
+footer li {
+  float: left; }
+
+footer a {
+  text-decoration: none;
+  color: #393939;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+footer li {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+footer .active {
+  background-color: #4CAF50; }
+
+.footerimg img {
+  width: auto;
+  height: 3vh;
+  float: right;
+  margin: 15px 30px 0px 0px; }
+
+button:focus {
+  outline: 0; }
+
+.browse {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(167, 232, 189, 0.8), rgba(167, 232, 189, 0.8)), url(../images/recipe-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+div.browsegallery {
+  border: 1px solid #ccc; }
+
+.browsehead {
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+  margin: 50px 50px; }
+
+.img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  position: relative;
+  float: left;
+  width: 300px;
+  height: 263px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 24px; }
+
+.desc {
+  position: relative;
+  float: left;
+  width: 224px;
+  height: 263px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 24px;
+  background-color: white;
+  padding: 40px; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-content: center;
+  padding: 0px 50px 50px 50px;
+  grid-gap: 50px; }
+
+.grid-item {
+  font-size: 9px;
+  text-align: center; }
+
+.time {
+  padding: 30px; }
+
+.container {
+  position: relative;
+  width: 50%; }
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 200%);
+  -ms-transform: translate(50%, 50%);
+  text-align: center; }
+
+.container:hover .image {
+  opacity: 0.3; }
+
+.container:hover .middle {
+  opacity: 1; }
+
+.text {
+  margin: 5px 0px 0px 20px;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  background-color: #FFD972;
+  border-radius: 26px;
+  padding: 10px 52px;
+  border: none;
+  float: left;
+  text-decoration: none; }
+
+.createcontent {
+  margin-left: 150px;
+  margin-top: 100px; }
+
+.createheader {
+  font-family: 'Caveat', cursive;
+  font-size: 25px; }
+
+form {
+  margin: 50px 100px 100px 0px; }
+
+input {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  width: 100%;
+  padding: 12px 0px;
+  margin: 30px 0px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black; }
+
+.formheader {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px; }
+
+.add {
+  margin-bottom: 50px;
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+  background-color: #FCBCB8;
+  border-radius: 26px;
+  padding: 10px 52px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#createrecipe {
+  margin-bottom: 50px;
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+  background-color: #FCBCB8;
+  border-radius: 26px;
+  padding: 10px 52px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.viewcontent {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  align-content: center;
+  padding: 35px 50px 50px 50px;
+  grid-gap: 50px; }
+
+.viewimg {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  position: relative;
+  float: left;
+  width: 500px;
+  height: auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.viewhead {
+  font-size: 24px;
+  text-align: justify;
+  padding: 35px 0px; }
+
+.viewtext {
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-align: justify;
+  padding: 0px 150px 0px 0px; }
+
+.recipeholder {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-content: center;
+  padding: 0px 50px 50px 50px;
+  grid-gap: 50px; }
+
+.recipeEdit {
+  margin: 20px 0px 0px 20px;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  background-color: #FFD972;
+  border-radius: 26px;
+  padding: 10px 32px;
+  border: none;
+  float: left;
+  text-decoration: none;
+  cursor: pointer; }
+
+.recipeEdit a:hover {
+  text-decoration: none; }
+
+.delete {
+  margin: 20px 0px 0px 20px;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  background-color: #FFD972;
+  border-radius: 26px;
+  padding: 10px 32px;
+  float: left;
+  cursor: pointer; }
+
+.logingrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-content: center;
+  padding: 0px 200px 50px 200px;
+  grid-gap: 50px; }
+
+.loginheader {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  letter-spacing: 2.5px;
+  float: left; }
+
+.loginbackground {
+  background-image: linear-gradient(to right bottom, #FFD972, #FFD972); }
+
+.signupbtn {
+  margin-bottom: 50px;
+  transform: translate(0px, 50px);
+  font-family: 'Caveat', cursive;
+  font-size: 24px;
+  background-color: #FFD972;
+  border-radius: 26px;
+  padding: 10px 100px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.loginform {
+  margin: 100px 40px -20px 40px; }
+  .loginform input {
+    background-color: #FFD972;
+    font-size: 12px; }

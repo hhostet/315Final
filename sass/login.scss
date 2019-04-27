@@ -1,0 +1,43 @@
+.logingrid{
+    display: grid;
+    grid-template-columns:auto auto;
+    align-content: center;
+    padding:0px 200px 50px 200px;
+    grid-gap: 50px;
+}
+
+.loginheader{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2.5px;
+    float: left;
+}
+
+
+.loginbackground{
+    background-image: linear-gradient(to right bottom, $yellow, $yellow);
+}
+
+.signupbtn{
+    
+    margin-bottom: 50px;
+    transform: translate(0px,50px);
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    background-color: $yellow;
+    border-radius: 26px;
+    padding: 10px 100px;
+    border: none;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginform{
+    margin: 100px 40px -20px 40px;
+    
+    input{
+
+        background-color: $yellow;
+        font-size: 12px;
+    }
+}
+

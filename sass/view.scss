@@ -1,0 +1,37 @@
+.viewcontent{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto auto;
+    align-content: center;
+    padding:35px 50px 50px 50px;
+    grid-gap: 50px;
+}
+
+.viewimg{
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: relative;
+    float: left;
+    width:  500px;
+    height: auto;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.viewhead{
+    font-size: 24px;
+    text-align: justify;
+    padding: 35px 0px;
+}
+
+.viewtext{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: justify;
+    padding: 0px 150px 0px 0px;
+}
